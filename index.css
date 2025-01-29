@@ -383,6 +383,41 @@ button {
 
 .left-col {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 2.5vw, 3.5rem);
+  font-weight: bold;
+}
+
+.sub-header {
+  font-size: clamp(0.875rem, 0.9vw, 1.25rem);
+
+  order: -1;
+  opacity: 40%;
+}
+
+.sign-in-link-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* justify-content: center; */
+}
+.sign-in-link-container span {
+  opacity: 40%;
+}
+
+.sign-in-query,
+.sign-in-link {
+  font-weight: bold;
+  font-size: clamp(0.875rem, 0.9vw, 1.25rem);
+}
+
+.sign-in-link {
+  color: #406afd;
 }
 
 .background-img-col {
