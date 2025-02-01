@@ -440,3 +440,14 @@ form {
     flex-direction: row;
   }
 }
+
+.submit-btn {
+  background-color: #406afd;
+  color: #f8f8f8;
+  width: 525px;
+  height: 55px;
+  padding: 1em 1.25em;
+  border: none;
+  border-radius: 50px;
+  filter: drop-shadow(4px 0 4px #4444dd);
+}
