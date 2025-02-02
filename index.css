@@ -436,18 +436,30 @@ form {
 
 @media (min-width: 768px) {
   .container {
-    /* background-color: red; */
     flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .left-col {
+    display: flex;
   }
 }
 
 .submit-btn {
   background-color: #406afd;
   color: #f8f8f8;
-  width: 525px;
+  width: clamp(300px, 25vw, 525px);
   height: 55px;
   padding: 1em 1.25em;
   border: none;
   border-radius: 50px;
   filter: drop-shadow(4px 0 4px #4444dd);
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: rgb(9, 42, 163);
 }
