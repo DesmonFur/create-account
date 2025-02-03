@@ -386,6 +386,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2em;
 }
 
 h1 {
@@ -445,6 +446,7 @@ input {
 .sign-in-link {
   font-weight: bold;
   font-size: clamp(0.875rem, 0.9vw, 1.25rem);
+  text-decoration: none;
 }
 
 .sign-in-link {
@@ -469,6 +471,7 @@ input {
 
   .left-col {
     display: flex;
+    margin-top: 0;
   }
 
   .top-row {
